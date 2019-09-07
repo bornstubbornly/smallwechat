@@ -341,11 +341,11 @@ class Sum
 				    	 }
 				     }
 				}
-			}
-		}
-		if(get==0)
-		{
+	              if(get==0)
+		     {
 			System.out.println("无共同好友");
+		     }
+			}
 		}
 		qqsurface();
 	}
@@ -2739,11 +2739,12 @@ class Sum
 					     }
 					}
 				}
+                          if(get==0)
+		        {
+			System.out.println("无共同好友");
+		         }
 			}
-			if(get==0)
-			{
-				System.out.println("无共同好友");
-			}
+
 			wechatsurface();
 		}
 	public static void wechatheckmemberinformation() throws SQLException {
